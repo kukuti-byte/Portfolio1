@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eventia — Event Management</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Header -->
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">Eventia</div>
+      <ul class="links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#events">Upcoming</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Plan. Promote. Perform.</h1>
+      <p>Seamless events from concept to curtain call.</p>
+      <a href="#contact" class="btn">Get a Quote</a>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/service1.jpg" alt="Corporate Events"/>
+        <h3>Corporate Events</h3>
+        <p>Conferences, product launches, and executive summits delivered flawlessly.</p>
+      </div>
+      <div class="card">
+        <img src="images/service2.jpg" alt="Concerts & Festivals"/>
+        <h3>Concerts & Festivals</h3>
+        <p>Stage, sound, lights, talent — we orchestrate unforgettable shows.</p>
+      </div>
+      <div class="card">
+        <img src="images/service3.jpg" alt="Weddings & Private"/>
+        <h3>Weddings & Private</h3>
+        <p>Intimate to grand — bespoke planning for your perfect day.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Upcoming Events -->
+  <section id="events" class="section muted">
+    <h2>Upcoming Events</h2>
+    <div class="events">
+      <div class="event">
+        <div class="date">
+          <span class="day">12</span>
+          <span class="mon">SEP</span>
+        </div>
+        <div class="info">
+          <h4>Startup Summit 2025</h4>
+          <p>Lagos • Landmark Event Centre</p>
+        </div>
+        <a href="#contact" class="btn small">Register</a>
+      </div>
+
+      <div class="event">
+        <div class="date">
+          <span class="day">03</span>
+          <span class="mon">OCT</span>
+        </div>
+        <div class="info">
+          <h4>AfroBeats Live</h4>
+          <p>Abuja • National Stadium</p>
+        </div>
+        <a href="#contact" class="btn small">Get Tickets</a>
+      </div>
+
+      <div class="event">
+        <div class="date">
+          <span class="day">24</span>
+          <span class="mon">NOV</span>
+        </div>
+        <div class="info">
+          <h4>Bridal Showcase</h4>
+          <p>Kaduna • Royal Hall</p>
+        </div>
+        <a href="#contact" class="btn small">RSVP</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Request a Proposal</h2>
+    <form action="https://formspree.io/f/xpwlnaya" method="POST" class="form">
+      <input type="text" name="name" placeholder="Full Name" required/>
+      <input type="email" name="email" placeholder="Email" required/>
+      <input type="text" name="event_type" placeholder="Event Type (e.g., Conference)" required/>
+      <textarea name="message" rows="5" placeholder="Tell us about your event (date, venue, audience)..." required></textarea>
+      <button type="submit" class="btn">Send Request</button>
+    </form>
+  </section>
+
+  <footer class="footer">© 2025 Eventia. All rights reserved.</footer>
+</body>
+</html>

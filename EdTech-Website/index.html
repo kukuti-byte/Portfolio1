@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EdTech Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1><i class="ri-book-open-line"></i> EduSmart</h1>
+      <nav>
+        <a href="#courses"><i class="ri-graduation-cap-line"></i> Courses</a>
+        <a href="#about"><i class="ri-information-line"></i> About</a>
+        <a href="#testimonials"><i class="ri-chat-quote-line"></i> Testimonials</a>
+        <a href="#contact"><i class="ri-mail-line"></i> Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Learn Anytime, Anywhere</h2>
+      <p>Interactive online courses designed to boost your career.</p>
+      <a href="#courses" class="btn">Browse Courses</a>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="courses">
+    <h2>Our Popular Courses</h2>
+    <div class="course-grid">
+      <div class="course-card">
+        <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=500&q=80" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>Master HTML, CSS, and JavaScript from scratch.</p>
+      </div>
+      <div class="course-card">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=500&q=80" alt="Data Science">
+        <h3>Data Science</h3>
+        <p>Learn Python, statistics, and machine learning.</p>
+      </div>
+      <div class="course-card">
+        <img src="images/uiux.jpg" alt="UI/UX Design">
+        <h3>UI/UX Design</h3>
+        <p>Design modern, user-friendly apps and websites.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>EduSmart is an online learning platform helping students and professionals achieve their goals with quality education and expert instructors.</p>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Students Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Student Aisha">
+        <p>"EduSmart changed my life! The Web Development course helped me land my first tech job."</p>
+        <h4>— Aisha Bello</h4>
+      </div>
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Student John">
+        <p>"The Data Science course was amazing. The hands-on projects made learning so easy."</p>
+        <h4>— John David</h4>
+      </div>
+      <div class="testimonial-card">
+        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Student Fatima">
+        <p>"I loved the UI/UX Design course! Now I freelance and earn from home."</p>
+        <h4>— Fatima Yusuf</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/xpwlnaya" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit"><i class="ri-send-plane-line"></i> Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 EduSmart. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
