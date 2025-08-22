@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catalog — Elegance & Co.</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="subheader">
+    <div class="container nav">
+      <a href="index.html" class="logo">Elegance & Co.</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="catalog.html" class="active">Catalog</a>
+        <a href="product.html">Sample Product</a>
+      </nav>
+    </div>
+    <div class="container subheader__body">
+      <h1>Our Catalog</h1>
+      <p>Minimal, scalable grid that adapts to any category count.</p>
+    </div>
+  </header>
+
+  <main class="container section">
+    <div class="filters">
+      <div class="filters__left">
+        <button class="chip">All</button>
+        <button class="chip">Leather</button>
+        <button class="chip">Footwear</button>
+        <button class="chip">Accessories</button>
+      </div>
+      <div class="filters__right">
+        <label class="select">
+          <span>Sort</span>
+          <select>
+            <option>Featured</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>Newest</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div class="grid grid--4 products">
+      <!-- Duplicate/adjust as needed -->
+      <a class="product-card" href="product.html">
+        <div class="product-card__media">
+          <img src="images/wallet.jpg" alt="">
+        </div>
+        <div class="product-card__body">
+          <h3>Classic Leather Wallet</h3>
+          <p class="price">$89</p>
+        </div>
+      </a>
+
+      <a class="product-card" href="product.html">
+        <div class="product-card__media">
+          <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=1200&auto=format&fit=crop" alt="">
+        </div>
+        <div class="product-card__body">
+          <h3>Minimal Sneakers</h3>
+          <p class="price">$129</p>
+        </div>
+      </a>
+
+      <a class="product-card" href="product.html">
+        <div class="product-card__media">
+          <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1200&auto=format&fit=crop" alt="">
+        </div>
+        <div class="product-card__body">
+          <h3>Everyday Headphones</h3>
+          <p class="price">$159</p>
+        </div>
+      </a>
+
+      <a class="product-card" href="product.html">
+        <div class="product-card__media">
+          <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1200&auto=format&fit=crop" alt="">
+        </div>
+        <div class="product-card__body">
+          <h3>Canvas Tote</h3>
+          <p class="price">$49</p>
+        </div>
+      </a>
+
+      <!-- Add as many as you like... -->
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2025 Elegance & Co.</span>
+      <nav class="footer__nav">
+        <a href="index.html">Home</a>
+        <a href="catalog.html">Catalog</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

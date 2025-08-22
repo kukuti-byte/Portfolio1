@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="travel-header">
+    <nav class="navbar">
+      <div class="logo">Travel<span>Explorer</span></div>
+      <ul class="nav-links">
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">&#9776;</div>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Discover The World With Us</h1>
+      <p>Plan your perfect trip with our professional travel services</p>
+      <a href="#destinations" class="btn">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Destinations -->
+  <section id="destinations">
+    <h2>Top Destinations</h2>
+    <div class="destination-cards">
+      <div class="card">
+        <img src="images/Paris.jpg" alt="Paris">
+        <h3>Paris</h3>
+        <p>The city of lights and love.</p>
+      </div>
+      <div class="card">
+        <img src="images/bali.jpg" alt="Bali">
+        <h3>Bali</h3>
+        <p>Relax at tropical beaches.</p>
+      </div>
+      <div class="card">
+        <img src="images/new-york.jpg" alt="New York">
+        <h3>New York</h3>
+        <p>The city that never sleeps.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Flight Booking</h3>
+        <p>Affordable flights to destinations worldwide.</p>
+      </div>
+      <div class="card">
+        <h3>Hotel Reservations</h3>
+        <p>Comfortable stays at the best prices.</p>
+      </div>
+      <div class="card">
+        <h3>Tour Packages</h3>
+        <p>Custom packages designed just for you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial-card">
+        <img src="images/ali.jpg" alt="Client 1">
+        <p>"Best travel experience of my life!"</p>
+        <h4>- Ali Abdul.</h4>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/bali.jpg" alt="Client 2">
+        <p>"Everything was smooth and well organized."</p>
+        <h4>- David K.</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-section">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Travel Explorer | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const toggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

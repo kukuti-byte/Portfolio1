@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar">
+    <h1 class="logo">WeatherNow</h1>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Forecast</a></li>
+      <li><a href="#">Maps</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <header class="hero">
+    <h2>Stay Ahead with WeatherNow</h2>
+    <p>Accurate forecasts, live updates, and climate insights at your fingertips.</p>
+    <a href="#" class="btn-primary">Check Weather</a>
+  </header>
+
+  <!-- ===== Current Weather Section ===== -->
+  <section class="current-weather">
+    <div class="weather-search">
+      <input type="text" id="city-input" placeholder="Enter city name..." />
+      <button id="search-btn">Search</button>
+    </div>
+    <h2>Current Weather</h2>
+    <div class="weather-card">
+      <h3 id="city-name">🌍 Abuja, Nigeria</h3>
+      <p class="temp" id="current-temp">28°C | ☀ Sunny</p>
+      <p id="details">Humidity: 55% | Wind: 10 km/h</p>
+      <img id="current-icon" src="" alt="Weather Icon" width="80">
+    </div>
+  </section>
+
+  <!-- ===== Forecast Section ===== -->
+  <section class="forecast">
+    <h2>5-Day Forecast</h2>
+    <div class="forecast-grid" id="forecast-grid"></div>
+  </section>
+
+  <!-- ===== Features Section ===== -->
+  <section class="features">
+    <h2>Why WeatherNow?</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>🌐 Global Coverage</h3>
+        <p>Get weather updates for any city around the world.</p>
+      </div>
+      <div class="feature-card">
+        <h3>📱 Responsive Design</h3>
+        <p>Perfectly optimized for mobile and desktop users.</p>
+      </div>
+      <div class="feature-card">
+        <h3>🔔 Alerts</h3>
+        <p>Get instant weather alerts and notifications.</p>
+      </div>
+      <div class="feature-card">
+        <h3>📊 Analytics</h3>
+        <p>Track climate trends and detailed forecasts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>© 2025 WeatherNow | Designed for Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
