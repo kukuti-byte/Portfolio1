@@ -1,0 +1,141 @@
+/* ===== General Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+  background-color: #f5f6fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Header ===== */
+.header {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #2c3e50;
+  color: #fff;
+}
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.header p {
+  font-size: 1.2rem;
+}
+
+/* ===== Section Titles ===== */
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* ===== Featured Movie Section ===== */
+.featured {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #3498db, #8e44ad);
+  color: #fff;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+}
+.featured-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+.featured-card p {
+  margin-bottom: 20px;
+}
+
+/* ===== Movies Grid ===== */
+.movies,
+.shows {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.movies-grid,
+.shows-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.movie-card,
+.show-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.movie-card:hover,
+.show-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+.movie-card h3,
+.show-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+.movie-card p,
+.show-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* ===== Subscription Section ===== */
+.subscription {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 50px auto;
+}
+.subscription p {
+  margin: 15px 0 25px;
+  font-size: 1.1rem;
+}
+
+/* ===== Buttons ===== */
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #2c3e50;
+  color: #fff;
+  margin-top: 50px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+  section h2 {
+    font-size: 1.6rem;
+  }
+}

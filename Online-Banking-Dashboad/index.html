@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartBank - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2>SmartBank</h2>
+    <ul>
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Accounts</a></li>
+      <li><a href="#">Transactions</a></li>
+      <li><a href="#">Payments</a></li>
+      <li><a href="#">Settings</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <header class="topbar">
+      <h1>Welcome, John Doe</h1>
+      <a href="login.html"><button>Logout</button></a>
+    </header>
+
+    <!-- Balance Overview -->
+    <section class="balance">
+      <div class="card">
+        <h3>Checking Account</h3>
+        <p>$12,450.75</p>
+      </div>
+      <div class="card">
+        <h3>Savings Account</h3>
+        <p>$8,320.40</p>
+      </div>
+      <div class="card">
+        <h3>Credit Card</h3>
+        <p>$2,150.00</p>
+      </div>
+    </section>
+
+    <!-- Transactions -->
+    <section class="transactions">
+      <h2>Recent Transactions</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Aug 20, 2025</td>
+            <td>Amazon Purchase</td>
+            <td>- $120.50</td>
+            <td class="red">Debited</td>
+          </tr>
+          <tr>
+            <td>Aug 18, 2025</td>
+            <td>Salary Credit</td>
+            <td>+ $3,000.00</td>
+            <td class="green">Credited</td>
+          </tr>
+          <tr>
+            <td>Aug 16, 2025</td>
+            <td>Electric Bill</td>
+            <td>- $75.30</td>
+            <td class="red">Debited</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
