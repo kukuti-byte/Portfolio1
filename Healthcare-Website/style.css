@@ -1,0 +1,42 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;background:#f6f8fc;color:#1e293b;line-height:1.6}
+
+/* Topbar */
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;background:#0ea5e9;color:#fff}
+.topbar .brand{font-weight:800;letter-spacing:.4px}
+.topbar a{color:#fff;text-decoration:none;margin-left:16px;font-weight:600;opacity:.95}
+.topbar a:hover{opacity:1}
+
+/* Hero */
+.hero{min-height:48vh;background:url('images/hero.jpg') center/cover no-repeat;position:relative}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.35),rgba(0,0,0,.35))}
+.hero-inner{position:relative;z-index:2;color:#fff;text-align:center;padding:70px 18px}
+.hero-inner h1{font-size:2.2rem;margin-bottom:8px}
+.hero-inner p{opacity:.95;margin-bottom:16px}
+.btn{display:inline-block;background:#22c55e;color:#fff;text-decoration:none;padding:12px 20px;border-radius:10px;font-weight:700;transition:.25s}
+.btn:hover{transform:translateY(-2px);filter:brightness(.95)}
+
+/* Sections */
+.section{max-width:1100px;margin:0 auto;padding:56px 18px}
+.section h2{text-align:center;margin-bottom:24px}
+
+/* Cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:#fff;border-radius:14px;box-shadow:0 10px 24px rgba(2,6,23,.06);padding:14px}
+.card img{width:100%;height:150px;object-fit:cover;border-radius:10px;margin-bottom:10px}
+.card h3{margin:6px 0}
+
+/* Doctors */
+.alt{background:#eef2ff}
+.docs{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.doc{display:flex;gap:12px;background:#fff;border-radius:12px;padding:12px;box-shadow:0 8px 20px rgba(2,6,23,.06)}
+.doc img{width:64px;height:64px;border-radius:50%;object-fit:cover}
+
+/* Form */
+.form{max-width:620px;margin:6px auto 0;background:#fff;padding:20px;border-radius:14px;box-shadow:0 10px 24px rgba(2,6,23,.06)}
+.form input,.form textarea{width:100%;padding:12px;border:1px solid #cbd5e1;border-radius:10px;margin:8px 0;font-size:1rem}
+.form input:focus,.form textarea:focus{outline:none;border-color:#0ea5e9;box-shadow:0 0 0 3px rgba(14,165,233,.18)}
+.form button{width:100%;margin-top:6px}
+
+/* Footer */
+.footer{text-align:center;padding:26px 16px;color:#6b7280}

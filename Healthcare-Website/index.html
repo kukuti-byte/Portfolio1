@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MediCare — Quality Care, Anytime</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="brand">MediCare</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#doctors">Doctors</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Quality Care, Anytime</h1>
+      <p>Book appointments, consult specialists, and manage your health online.</p>
+      <a href="#contact" class="btn">Book Appointment</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/telemedicine.jpg" alt="Telemedicine"/>
+        <h3>Telemedicine</h3>
+        <p>Video consultations with certified doctors from the comfort of home.</p>
+      </div>
+      <div class="card">
+        <img src="images/diagnostics.jpg" alt="Diagnostics"/>
+        <h3>Diagnostics</h3>
+        <p>Lab tests and imaging with fast, accurate reporting.</p>
+      </div>
+      <div class="card">
+        <img src="images/pharmacy.jpg" alt="Pharmacy"/>
+        <h3>Pharmacy</h3>
+        <p>Order prescriptions and wellness products for home delivery.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doctors -->
+  <section id="doctors" class="section alt">
+    <h2>Our Specialists</h2>
+    <div class="docs">
+      <div class="doc">
+        <img src="images/doc1.jpg" alt="Dr. Aisha Bello"/>
+        <div>
+          <h4>Dr. Aisha Bello</h4>
+          <p>Cardiologist • 12 years experience</p>
+        </div>
+      </div>
+      <div class="doc">
+        <img src="images/doc2.jpg" alt="Dr. Samuel Obi"/>
+        <div>
+          <h4>Dr. Samuel Obi</h4>
+          <p>Pediatrician • 9 years experience</p>
+        </div>
+      </div>
+      <div class="doc">
+        <img src="images/doc3.jpg" alt="Dr. Ada Okeke"/>
+        <div>
+          <h4>Dr. Ada Okeke</h4>
+          <p>Dermatologist • 7 years experience</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Appointment -->
+  <section id="contact" class="section">
+    <h2>Book an Appointment</h2>
+    <form action="https://formspree.io/f/xpwlnaya" method="POST" class="form">
+      <input type="text" name="name" placeholder="Full Name" required/>
+      <input type="email" name="email" placeholder="Email" required/>
+      <input type="text" name="department" placeholder="Department (e.g., Cardiology)" required/>
+      <textarea name="message" rows="5" placeholder="Describe your symptoms or request" required></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <footer class="footer">© 2025 MediCare. All rights reserved.</footer>
+</body>
+</html>
